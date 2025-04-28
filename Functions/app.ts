@@ -14,4 +14,13 @@ function profaction(hobby: string) { // Changed 'Profaction' to 'profaction' (co
 
 // To see the output of profaction, we need to log it
 const result = profaction("AI Agent");
-console.log(result); // This will log "My Hobby is AI Agent creator :)"
+console.log(result); // This will log "My Hobby is AI
+
+// Arrow Functions
+
+let ageCalculator = (birthYear:number,firstName:string):void => {
+    let age = 2025 - birthYear
+    console.log(`my name is ${firstName} and my age is ${age}`)
+}
+
+ageCalculator(2004,"uzair")
